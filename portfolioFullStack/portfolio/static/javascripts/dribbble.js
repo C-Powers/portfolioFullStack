@@ -56,7 +56,7 @@ projects.forEach(function(entry){
 
 projects.forEach(function(entry){
   html += '<li>';
-  html += '<a href="'+ entry.url +'">';
+  html += '<a href="'+ entry.url +'" target="_blank">';
   html += '<img src="' + entry.path + '" alt="'+ entry.name +'" />';
   html += '</a>';
   html += '</li>';
